@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hsk1">#00FF00</color>
+    <color name="hsk2">#FF84C2</color>
+    <color name="hsk3">#FF7D00</color>
+    <color name="hsk4">#0040FF</color>
+    <color name="hsk5">#000000</color>
+    <color name="hsk6">#FF0000</color>
+    <color name="nonHsk">#7F7F7F</color>
+
+    <integer-array name="androidcolors">
+        <item>@color/nonHsk</item>
+    </integer-array>
+
+
+</resources>
+

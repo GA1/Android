@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    >
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/introduce_text"
+        android:minLines="1"
+        android:maxLines="100"
+        android:inputType="textMultiLine"
+        />
+
+
+    <TextView
+        android:id="@+id/hsk2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/hsk2"
+        android:text="HSK2 = 0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/hsk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hsk2"
+        android:textColor="@color/hsk1"
+        android:text="HSK1 = 0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/hsk4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/hsk4"
+        android:text="HSK4 = 0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/hsk3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/hsk4"
+        android:textColor="@color/hsk3"
+        android:text="HSK3 = 0"
+        android:textSize="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/hsk6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/hsk6"
+        android:text="HSK6 = 0"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/hsk5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/hsk6"
+        android:textColor="@color/hsk5"
+        android:text="HSK5 = 0"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hsk5"
+        android:text="@string/count_characters_hsk"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="countAndColorHskCharacters"
+        />
+
+
+    <Button
+        android:id="@+id/CLEAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/count"
+        android:text="@string/clear"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="clear"
+        />
+
+
+</RelativeLayout>
