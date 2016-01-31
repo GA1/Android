@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Snore Killer</string>
+    <string name="action_settings">Settings</string>
+    <string name="tip">To test the app pretend to snore for 10 seconds. Increase sensitivity if there is no alarm ringing.</string>
+    <string name="connect_headphones">Please, connect headphones or an equivalent.</string>
+    <string name="increase_sensitivity">INCREASE SENSITIVITY</string>
+    <string name="lower_sensitivity">LOWER SENSITIVITY</string>
+</resources>

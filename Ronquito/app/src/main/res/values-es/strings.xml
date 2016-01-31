@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RonQuito</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="tip">Para testar la app finja roncar durante 10 segundos. Aumenta la sensitividad si el alarma no suena.</string>
+    <string name="connect_headphones">Por favor, conecte auriculares o un equivalente.</string>
+    <string name="increase_sensitivity">AUMENTA SENSITIVIDAD</string>
+    <string name="lower_sensitivity">AUMENTA SENSITIVIDAD</string>
+</resources>

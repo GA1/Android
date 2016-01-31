@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Antychrapek</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="tip">Dla wypróbowania aplikacji udawaj chrapanie przez 10 sekund. Zwiększ czułość jeśli alarm się nie włącza.</string>
+    <string name="connect_headphones">Proszę podłączyć słuchawki, lub urządzenie podobnego typu.</string>
+    <string name="increase_sensitivity">ZWIĘKSZ CZUŁOŚĆ</string>
+    <string name="lower_sensitivity">ZMNIEJSZ CZUŁOŚĆ</string>
+</resources>

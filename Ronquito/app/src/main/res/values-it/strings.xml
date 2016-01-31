@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RonQuito</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="tip">Come prova faccia finta di russare durante 10 secondi. Se l\'allarme non suona, aumenta la sensibilità.</string>
+    <string name="connect_headphones">Colleghi le cuffie o un\'equivalente per favore.</string>
+    <string name="increase_sensitivity">AUMENTA SENSIBILITA</string>
+    <string name="lower_sensitivity">AUMENTA SENSIBILITA</string>
+</resources>
