@@ -6,3 +6,5 @@ build/
 local.properties
 
 *.iml
+*.pro
+app/build
