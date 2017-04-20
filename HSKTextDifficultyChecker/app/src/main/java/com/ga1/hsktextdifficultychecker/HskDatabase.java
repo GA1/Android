@@ -21,8 +21,6 @@ public class HskDatabase {
         this.context = context;
         charactersToLevel = new HashMap<>();
         loadHskCharacters();
-//        Log.w("myApp", charactersToLevel.toString());
-        int a = 5;
     }
 
     private void loadHskCharacters() {
@@ -35,9 +33,9 @@ public class HskDatabase {
     }
 
     private void loadHsk(int hskFile, int level) {
-        String stringHSK1 = loadStringFromFile(hskFile);
-        for (int i = 0; i < stringHSK1.length(); i++){
-            char c = stringHSK1.charAt(i);
+        String hskString = loadStringFromFile(hskFile);
+        for (int i = 0; i < hskString.length(); i++){
+            char c = hskString.charAt(i);
             charactersToLevel.put(c, level);
         }
     }
